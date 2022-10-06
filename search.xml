@@ -4,21 +4,22 @@
     <title>Hello World</title>
     <url>/2022/10/04/hello-world/</url>
     <content><![CDATA[<pre class="mermaid">graph TD
-A[Hard] -->|Text| B(Round)
-B --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]</pre>
+A[Hard] --&gt;|Text| B(Round)
+B --&gt; C{Decision}
+C --&gt;|One| D[Result 1]
+C --&gt;|Two| E[Result 2]</pre>
+<span id="more"></span>
 <p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
@@ -30,19 +31,29 @@ C -->|Two| E[Result 2]</pre>
     <title>家庭育儿也需要民主</title>
     <url>/2022/10/05/%E5%AE%B6%E5%BA%AD%E8%82%B2%E5%84%BF%E4%B9%9F%E9%9C%80%E8%A6%81%E6%B0%91%E4%B8%BB/</url>
     <content><![CDATA[<p>楼下有个不知名私人中医馆，可以走医保，据说能按摩能扎针。记得当年在正规三甲中医院，想理疗，很难排上队。不到万不得已，主治医生不可能给你上针灸。但是小医院就可以，给钱就能做。如果世间能有一种好办法，既不锻炼，也不吃药，也不用规范饮食起居，也不用去大医院化验就能把病治好的办法，怕是就只有中医了，中医满足了大众的所有需求，躺着就能把病治了，喝喝药就好。</p>
+<span id="more"></span>
 <p>带孩子的老人自然难以抵挡这个诱惑，为了带孩子方便，让孩子也去一起针灸了。我话到嘴边几次想阻止，还是算了，可能只会激化矛盾。既然都符合大众的心理，大家都愿意做这件事，就做吧。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">就算你是对的，也没必要让别人觉得自己错！</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">就算别人是对的，你也没必要承认自己错！</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">就算你是对的，也没必要让别人觉得自己错！</span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">就算别人是对的，你也没必要承认自己错！</span><br></pre></td></tr></tbody></table></figure>
 
-<img src="https://cdn.pixabay.com/photo/2014/11/21/17/36/china-wind-540827_960_720.jpg" width=500px>]]></content>
+<img src="https://cdn.pixabay.com/photo/2014/11/21/17/36/china-wind-540827_960_720.jpg" width="500px">]]></content>
       <tags>
         <tag>我是一名爸爸</tag>
       </tags>
   </entry>
   <entry>
+    <title>抓紧秋天的尾巴运动起来</title>
+    <url>/2022/10/06/%E6%8A%93%E7%B4%A7%E7%A7%8B%E5%A4%A9%E7%9A%84%E5%B0%BE%E5%B7%B4%E8%BF%90%E5%8A%A8%E8%B5%B7%E6%9D%A5/</url>
+    <content><![CDATA[<p><span class="github-emoji"><span>🏃♂</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c3-2642.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span><span class="github-emoji"><span>🏃♂</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c3-2642.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span><span class="github-emoji"><span>🏃♂</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c3-2642.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>北京的冬日将至，可以路跑的时间变得弥足珍贵，且跑且珍惜。<br>总跑步里程在今年突破1000km看来是不现实了。<br><img src="https://user-images.githubusercontent.com/20448762/194349669-591d7bf4-03d1-4343-88c0-594248c34b8d.jpg" title="202210_跑步统计" width="300px"></p>
+]]></content>
+      <tags>
+        <tag>我是一名长跑爱好者</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>射孔数据修正</title>
     <url>/2022/10/05/%E5%B0%84%E5%AD%94%E6%95%B0%E6%8D%AE%E4%BF%AE%E6%AD%A3/</url>
-    <content><![CDATA[<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>如果不修正，非油层也被开启射孔，数模速度和结果受到影响<br><img src="https://user-images.githubusercontent.com/20448762/193954633-639224f8-f236-4a43-9869-a5c4a48bf2de.png" title="射孔段和储层段的矛盾" height=300px></p>
+    <content><![CDATA[<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>如果不修正，非油层也被开启射孔，数模速度和结果受到影响<br><img src="https://user-images.githubusercontent.com/20448762/193954633-639224f8-f236-4a43-9869-a5c4a48bf2de.png" title="射孔段和储层段的矛盾" height="300px"></p>
 <h2 id="解决思路"><a href="#解决思路" class="headerlink" title="解决思路"></a>解决思路</h2>]]></content>
       <tags>
         <tag>我是一名工程师</tag>
