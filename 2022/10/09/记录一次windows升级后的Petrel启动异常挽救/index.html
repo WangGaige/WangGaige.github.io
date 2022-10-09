@@ -20,25 +20,31 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.13.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="喜欢Hexo的纯净，简洁和可控，目前看到的全是优点。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="我就随便记一下">
-<meta property="og:url" content="http://example.com/archives/2022/index.html">
+    <meta name="description" content="WIN10升级以后，Petrel2021和2022莫名其妙就发生了启动闪退。重新安装，卸载，换版本都测试过，均告失败。发了IT HELP，答案是不归他们管，是Intouch的负责范围。 解决方案程序都还没完全启动，推测应该还是windows本身的问题，看看event logger有没有相关报错。step 1 查看event logger,定位错误信息 step 2 google错误信息ms的官方解">
+<meta property="og:type" content="article">
+<meta property="og:title" content="记录一次windows升级后的Petrel启动异常挽救">
+<meta property="og:url" content="http://example.com/2022/10/09/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1windows%E5%8D%87%E7%BA%A7%E5%90%8E%E7%9A%84Petrel%E5%90%AF%E5%8A%A8%E5%BC%82%E5%B8%B8%E6%8C%BD%E6%95%91/index.html">
 <meta property="og:site_name" content="我就随便记一下">
-<meta property="og:description" content="喜欢Hexo的纯净，简洁和可控，目前看到的全是优点。">
+<meta property="og:description" content="WIN10升级以后，Petrel2021和2022莫名其妙就发生了启动闪退。重新安装，卸载，换版本都测试过，均告失败。发了IT HELP，答案是不归他们管，是Intouch的负责范围。 解决方案程序都还没完全启动，推测应该还是windows本身的问题，看看event logger有没有相关报错。step 1 查看event logger,定位错误信息 step 2 google错误信息ms的官方解">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://user-images.githubusercontent.com/20448762/194733999-2e7c7371-e635-4ba4-b081-5a4adc77fe73.png">
+<meta property="og:image" content="https://user-images.githubusercontent.com/20448762/194734143-33e06c22-f36a-4fd2-a6df-fb49203ecd12.png">
+<meta property="article:published_time" content="2022-10-09T01:56:30.000Z">
+<meta property="article:modified_time" content="2022-10-09T02:14:39.849Z">
 <meta property="article:author" content="王改革爱记录">
+<meta property="article:tag" content="我是一名工程师">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://user-images.githubusercontent.com/20448762/194733999-2e7c7371-e635-4ba4-b081-5a4adc77fe73.png">
 
 
-<link rel="canonical" href="http://example.com/archives/2022/">
+<link rel="canonical" href="http://example.com/2022/10/09/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1windows%E5%8D%87%E7%BA%A7%E5%90%8E%E7%9A%84Petrel%E5%90%AF%E5%8A%A8%E5%BC%82%E5%B8%B8%E6%8C%BD%E6%95%91/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"archives/2022/index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://example.com/2022/10/09/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1windows%E5%8D%87%E7%BA%A7%E5%90%8E%E7%9A%84Petrel%E5%90%AF%E5%8A%A8%E5%BC%82%E5%B8%B8%E6%8C%BD%E6%95%91/","path":"2022/10/09/记录一次windows升级后的Petrel启动异常挽救/","title":"记录一次windows升级后的Petrel启动异常挽救"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>归档 | 我就随便记一下</title>
+<title>记录一次windows升级后的Petrel启动异常挽救 | 我就随便记一下</title>
   
 
 
@@ -71,7 +77,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <h1 class="site-title">我就随便记一下</h1>
+      <p class="site-title">我就随便记一下</p>
       <i class="logo-line"></i>
     </a>
   </div>
@@ -130,7 +136,7 @@
 
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -143,6 +149,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88"><span class="nav-number">1.</span> <span class="nav-text">解决方案</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -189,189 +196,96 @@
 </noscript>
 
 
-    <div class="main-inner archive posts-collapse">
+    <div class="main-inner post posts-expand">
 
 
   
-  
-  
-  <div class="post-block">
-    <div class="post-content">
-      <div class="collection-title">
-        <span class="collection-header">嗯..! 目前共计 8 篇日志。 继续努力。</span>
-      </div>
 
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/10/09/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1windows%E5%8D%87%E7%BA%A7%E5%90%8E%E7%9A%84Petrel%E5%90%AF%E5%8A%A8%E5%BC%82%E5%B8%B8%E6%8C%BD%E6%95%91/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="王改革爱记录">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="我就随便记一下">
+      <meta itemprop="description" content="喜欢Hexo的纯净，简洁和可控，目前看到的全是优点。">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="记录一次windows升级后的Petrel启动异常挽救 | 我就随便记一下">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          记录一次windows升级后的Petrel启动异常挽救
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
       
-    <div class="collection-year">
-      <span class="collection-header">2022</span>
+
+      <time title="创建时间：2022-10-09 09:56:30 / 修改时间：10:14:39" itemprop="dateCreated datePublished" datetime="2022-10-09T09:56:30+08:00">2022-10-09</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p>WIN10升级以后，Petrel2021和2022莫名其妙就发生了启动闪退。重新安装，卸载，换版本都测试过，均告失败。<br>发了IT HELP，答案是不归他们管，是Intouch的负责范围。<br><img src="https://user-images.githubusercontent.com/20448762/194733999-2e7c7371-e635-4ba4-b081-5a4adc77fe73.png" title="petrel2021启动后闪退" height="100px"></p>
+<h3 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h3><p>程序都还没完全启动，推测应该还是windows本身的问题，看看event logger有没有相关报错。<br>step 1 查看event logger,定位错误信息<br><img src="https://user-images.githubusercontent.com/20448762/194734143-33e06c22-f36a-4fd2-a6df-fb49203ecd12.png" title="petrel2021启动后闪退_windows_event_loger" height="100px"></p>
+<p>step 2 google错误信息<br>ms的官方解决方案，我采用的是：<br><a target="_blank" rel="noopener" href="https://answers.microsoft.com/en-us/windows/forum/all/applications-fail-to-start-with-kernelbasedll/44a4c2ad-a43f-479b-b026-bcdc2ff01285">https://answers.microsoft.com/en-us/windows/forum/all/applications-fail-to-start-with-kernelbasedll/44a4c2ad-a43f-479b-b026-bcdc2ff01285</a><br>里面的这个方案<br>Method 1: Register the .dll file.</p>
+<p>Tap on the Windows key on your keyboard and type Command prompt.<br>Right click and Run as administrator.<br>Type: regsvr32 KERNELBASE.dll<br>Restart the computer and check.</p>
+<p>运行完，虽然还是有其他错误，但是终于可以解决了。</p>
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2022-10-09T09:56:30+08:00"
-              content="2022-10-09">
-          10-09
-        </time>
-      </div>
+    
+    
+    
 
-      <div class="post-title">
-          <a class="post-title-link" href="/2022/10/09/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1windows%E5%8D%87%E7%BA%A7%E5%90%8E%E7%9A%84Petrel%E5%90%AF%E5%8A%A8%E5%BC%82%E5%B8%B8%E6%8C%BD%E6%95%91/" itemprop="url">
-            <span itemprop="name">记录一次windows升级后的Petrel启动异常挽救</span>
-          </a>
-      </div>
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E6%88%91%E6%98%AF%E4%B8%80%E5%90%8D%E5%B7%A5%E7%A8%8B%E5%B8%88/" rel="tag"># 我是一名工程师</a>
+          </div>
 
-      
-    </header>
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2022/10/08/%E4%B8%A4%E4%B8%AA%E7%BD%91%E6%A0%BC%E4%B8%8D%E5%90%8C%E7%A9%BA%E9%97%B4%E4%BD%8D%E7%BD%AE%E9%87%8D%E5%8F%A0%E7%9A%84%E6%A8%A1%E5%9E%8B%E7%B2%97%E5%8C%96/" rel="prev" title="两个网格不同空间位置重叠的模型粗化">
+                  <i class="fa fa-chevron-left"></i> 两个网格不同空间位置重叠的模型粗化
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
   </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2022-10-08T10:28:40+08:00"
-              content="2022-10-08">
-          10-08
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2022/10/08/%E4%B8%A4%E4%B8%AA%E7%BD%91%E6%A0%BC%E4%B8%8D%E5%90%8C%E7%A9%BA%E9%97%B4%E4%BD%8D%E7%BD%AE%E9%87%8D%E5%8F%A0%E7%9A%84%E6%A8%A1%E5%9E%8B%E7%B2%97%E5%8C%96/" itemprop="url">
-            <span itemprop="name">两个网格不同空间位置重叠的模型粗化</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2022-10-07T09:39:27+08:00"
-              content="2022-10-07">
-          10-07
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2022/10/07/%E5%B2%A9%E7%9B%B8%E8%BF%9E%E9%80%9A%E4%BD%93%E5%BF%AB%E9%80%9F%E5%BB%BA%E6%A8%A1%E6%8E%A2%E7%B4%A2/" itemprop="url">
-            <span itemprop="name">岩相连通体快速建模探索</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2022-10-07T00:00:25+08:00"
-              content="2022-10-07">
-          10-07
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2022/10/07/%E5%B1%9E%E6%80%A7%E5%BB%BA%E6%A8%A1%E6%B2%A1%E6%9C%89%E6%B5%8B%E4%BA%95%E8%A7%A3%E9%87%8A%E5%AD%94%E6%B8%97%E9%A5%B1%E6%9B%B2%E7%BA%BF%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F/" itemprop="url">
-            <span itemprop="name">属性建模没有测井解释孔渗饱曲线怎么办？</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2022-10-06T23:10:32+08:00"
-              content="2022-10-06">
-          10-06
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2022/10/06/%E6%8A%93%E7%B4%A7%E7%A7%8B%E5%A4%A9%E7%9A%84%E5%B0%BE%E5%B7%B4%E8%BF%90%E5%8A%A8%E8%B5%B7%E6%9D%A5/" itemprop="url">
-            <span itemprop="name">抓紧秋天的尾巴运动起来</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2022-10-05T11:41:28+08:00"
-              content="2022-10-05">
-          10-05
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2022/10/05/%E5%AE%B6%E5%BA%AD%E8%82%B2%E5%84%BF%E4%B9%9F%E9%9C%80%E8%A6%81%E6%B0%91%E4%B8%BB/" itemprop="url">
-            <span itemprop="name">家庭育儿也需要民主</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2022-10-05T09:04:28+08:00"
-              content="2022-10-05">
-          10-05
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2022/10/05/%E5%B0%84%E5%AD%94%E6%95%B0%E6%8D%AE%E4%BF%AE%E6%AD%A3/" itemprop="url">
-            <span itemprop="name">射孔数据修正</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2022-10-04T12:22:46+08:00"
-              content="2022-10-04">
-          10-04
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2022/10/04/hello-world/" itemprop="url">
-            <span itemprop="name">Hello World</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
+</div>
 
 
-    </div>
-  </div>
-  
-  
-  
+
+
+
 
 </div>
   </main>
