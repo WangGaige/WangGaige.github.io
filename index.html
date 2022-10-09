@@ -229,7 +229,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2022-10-09 09:56:30 / 修改时间：10:14:39" itemprop="dateCreated datePublished" datetime="2022-10-09T09:56:30+08:00">2022-10-09</time>
+      <time title="创建时间：2022-10-09 09:56:30 / 修改时间：10:16:49" itemprop="dateCreated datePublished" datetime="2022-10-09T09:56:30+08:00">2022-10-09</time>
     </span>
 
   
@@ -242,12 +242,19 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p>WIN10升级以后，Petrel2021和2022莫名其妙就发生了启动闪退。重新安装，卸载，换版本都测试过，均告失败。<br>发了IT HELP，答案是不归他们管，是Intouch的负责范围。<br><img src="https://user-images.githubusercontent.com/20448762/194733999-2e7c7371-e635-4ba4-b081-5a4adc77fe73.png" title="petrel2021启动后闪退" height="100px"></p>
-<h3 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h3><p>程序都还没完全启动，推测应该还是windows本身的问题，看看event logger有没有相关报错。<br>step 1 查看event logger,定位错误信息<br><img src="https://user-images.githubusercontent.com/20448762/194734143-33e06c22-f36a-4fd2-a6df-fb49203ecd12.png" title="petrel2021启动后闪退_windows_event_loger" height="100px"></p>
-<p>step 2 google错误信息<br>ms的官方解决方案，我采用的是：<br><a target="_blank" rel="noopener" href="https://answers.microsoft.com/en-us/windows/forum/all/applications-fail-to-start-with-kernelbasedll/44a4c2ad-a43f-479b-b026-bcdc2ff01285">https://answers.microsoft.com/en-us/windows/forum/all/applications-fail-to-start-with-kernelbasedll/44a4c2ad-a43f-479b-b026-bcdc2ff01285</a><br>里面的这个方案<br>Method 1: Register the .dll file.</p>
-<p>Tap on the Windows key on your keyboard and type Command prompt.<br>Right click and Run as administrator.<br>Type: regsvr32 KERNELBASE.dll<br>Restart the computer and check.</p>
-<p>运行完，虽然还是有其他错误，但是终于可以解决了。</p>
-
+          <ul>
+<li>WIN10升级以后，Petrel2021和2022莫名其妙就发生了启动闪退。重新安装，卸载，换版本都测试过，均告失败。</li>
+<li>发了IT HELP，答案是不归他们管，是Intouch的负责范围。<img src="https://user-images.githubusercontent.com/20448762/194733999-2e7c7371-e635-4ba4-b081-5a4adc77fe73.png" title="petrel2021启动后闪退" height="300px"></li>
+</ul>
+<h3 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h3>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2022/10/09/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1windows%E5%8D%87%E7%BA%A7%E5%90%8E%E7%9A%84Petrel%E5%90%AF%E5%8A%A8%E5%BC%82%E5%B8%B8%E6%8C%BD%E6%95%91/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
