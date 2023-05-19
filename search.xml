@@ -54,7 +54,7 @@ C --&gt;|Two| E[Result 2]</pre>
   </entry>
   <entry>
     <title>属性建模没有测井解释孔渗饱曲线怎么办？</title>
-    <url>/2022/10/07/%E5%B1%9E%E6%80%A7%E5%BB%BA%E6%A8%A1%E6%B2%A1%E6%9C%89%E6%B5%8B%E4%BA%95%E8%A7%A3%E9%87%8A%E5%AD%94%E6%B8%97%E9%A5%B1%E6%9B%B2%E7%BA%BF%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F/</url>
+    <url>/2022/10/06/%E5%B1%9E%E6%80%A7%E5%BB%BA%E6%A8%A1%E6%B2%A1%E6%9C%89%E6%B5%8B%E4%BA%95%E8%A7%A3%E9%87%8A%E5%AD%94%E6%B8%97%E9%A5%B1%E6%9B%B2%E7%BA%BF%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F/</url>
     <content><![CDATA[<pre class="mermaid">graph LR
 B[孔渗饱建模数据]
 A[原始测井曲线数据] --&gt;B
